@@ -1,2 +1,1 @@
-Coteaurep
-test
+Espace multiculturel Le Coteau
