@@ -1,0 +1,130 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+/*
+	2. Remove default margin
+  */
+* {
+	margin: 0;
+	text-decoration: none;
+}
+a {
+	color: black;
+}
+/*
+	3. Allow percentage-based heights in the application
+  */
+html,
+body {
+	height: 100%;
+}
+/*
+	Typographic tweaks!
+	4. Add accessible line-height
+	5. Improve text rendering
+  */
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+/*
+	6. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+/*
+	7. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+/*
+	8. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+/*
+	9. Create a root stacking context
+  */
+#root,
+#__next {
+	isolation: isolate;
+}
+
+/* ---------menu--------- */
+
+.barOnglets {
+	display: flex;
+	justify-content: center;
+	height: 200px;
+	width: 100%;
+}
+
+.onglets {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.accueil,
+.galerie,
+.cinema,
+.evenement,
+.goodies {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	text-align: center;
+	font-size: 26px;
+	padding: 10px;
+}
+
+.accueil,
+.galerie,
+.cinema,
+.evenement,
+.goodies:hover {
+	cursor: pointer;
+}
+
+/* ---------1--------- */
+
+.imageCoteau1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("images/images-used/backgroundCoteau.png");
+	background-size: cover;
+	height: 800px;
+	color: #fff;
+}
+
+.leCoteau-title {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 150px;
+	margin-top: 50px’;
+}
+
+.byElCoteaurep {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
