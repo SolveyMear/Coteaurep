@@ -127,15 +127,20 @@ h6 {
 .logSign:hover .seConnecter{
 	cursor: pointer;
 	transform: scale(1.15);
+	transition: all 200ms linear;
 }
 
 .logSign:hover .logoConnection{
 	transform: rotate(22deg);
 }
 
+.logSign .logoConnection,
+.logSign .logoConnection2{
+	transition: all 200ms linear;
+}
+
 .logSign:hover .logoConnection2{
 	transform: rotate(-22deg);
-	transition: all 200ms linear;
 }
 
 .logSign:hover .logoConnection img{
