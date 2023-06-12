@@ -88,7 +88,6 @@ h6 {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: nowrap;
-	padding-left: 0px;
 }
 
 .accueil,
@@ -133,7 +132,7 @@ h6 {
 .logSign:hover .seConnecter{
 	cursor: pointer;
 	transform: scale(1.15);
-	transition: all 150ms linear;
+	transition: all 200ms linear;
 }
 
 .logSign:hover .logoConnection{
@@ -183,137 +182,91 @@ h6 {
 	height: 60px;
 }
 
+/* --------main--------- */
+
+.presentationEspaceCinema{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: rgb(199, 149, 102);
+    background-color: rgb(40, 24, 10);
+    height: 300px;
+    padding: 40px;
+}
+
+.vote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aToiDeVoter {
+    text-align: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+	font-weight: bold;
+    color:  rgb(40, 24, 10);
+    margin-top: 50px;
+}
+
+.selectionDuMois {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+
+.film {
+    color: rgb(199, 149, 102);
+    background-color: rgb(40, 24, 10);
+	position: relative;
+}
+
+.film p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+
+.film.film:hover p {
+	opacity: 0.8;
+	transition: 200ms;
+}
 
 
+.film img {
+    height: 500px;
+}
 
+.film:hover img {
+    opacity: 0.2;
+}
 
-/* ---------1--------- */
+.film:hover {
+	cursor: pointer;
+	transform: scale(1.15);
+	transition: all 200ms linear;
+}
 
-.imageCoteau1 {
+.TousLesFilms {
+	display: flex;
+	justify-content: space-around;
+}
+
+.blocFIlm {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	background-image: url("images/images-used/backgroundCoteau.png");
-	background-size: cover;
-	height: 800px;
-	color: #fff;
+	justify-content: space-around;
+	height: 450px;
+	width: 250;
 }
-
-.leCoteau-title {
-	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-	font-size: 150px;
-	margin-top: 50px’;
-}
-
-.byElCoteaurep {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-/* --------- presentatiolns --------- */
-
-.presentations{
-	display: flex;
-	align-items: center;
-	flex: 0.5;
-	margin-top: 20px;
-	border-top: solid 1px rgb(199, 149, 102);
-	color: rgb(40, 24, 10);
-	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.imagePresentationGalerie {
-	background-image: url("images/images-used/galeriePresentation.jpeg");
-	background-size: cover;
-	height: 400px;
-	width: 640px;
-	transition: 150ms transform linear;
-}
-
-.textePresentationGalerie {
-	display: flex;
-	align-items: center;
-	text-align: center;
-	padding: 100px;
-	width: 50%;
-}
-.imagePresentationCinema {
-	background-image: url("images/images-used/cinemaPresentation.jpeg");
-	background-size: cover;
-	height: 400px;
-	width: 640px;
-	transition: 150ms transform linear;
-}
-
-.textePresentationCinema {
-	display: flex;
-	align-items: center;
-	text-align: center;
-	padding: 100px;
-	width: 50%;
-}
-.imagePresentationEvenement {
-	background-image: url("images/images-used/evenementPresentation.jpeg");
-	background-size: cover;
-	height: 400px;
-	width: 640px;
-	transition: 150ms transform linear;
-}
-
-.textePresentationEvenement {
-	display: flex;
-	align-items: center;
-	text-align: center;
-	padding: 100px;
-	width: 50%;
-}
-.imagePresentationGoodies {
-	background-image: url("images/images-used/tShirtLeCoteau.png");
-	background-size: cover;
-	height: 400px;
-	width: 640px;
-	transition: 150ms transform linear;
-}
-
-.textePresentationGoodies {
-	display: flex;
-	align-items: center;
-	text-align: center;
-	padding: 100px;
-	width: 50%;
-}
-
-.titleText{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	height: 100%;
-	width: 100%;
-	background-color: rgb(199, 149, 102);
-	color:  rgb(40, 24, 10);
-	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;		
-	font-size: 60px;
-	opacity: 0;
-	transition: 150ms transform linear;
-}
-
-.titleText:hover{
-	opacity: 0.7;
-}
-
-.imagePresentationGalerie:hover, 
-.imagePresentationCinema:hover,
-.imagePresentationEvenement:hover, 
-.imagePresentationGoodies:hover {
-	transform: scale(1.1);
-	cursor: pointer;
-
-}
-
-
-
-    /* --------reseauxSociaux--------- */
+/* --------reseauxSociaux--------- */
 
 
 	.reseauxSociaux{

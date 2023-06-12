@@ -185,130 +185,18 @@ h6 {
 
 
 
+/* --------main--------- */
 
-
-/* ---------1--------- */
-
-.imageCoteau1 {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-image: url("images/images-used/backgroundCoteau.png");
-	background-size: cover;
-	height: 800px;
-	color: #fff;
-}
-
-.leCoteau-title {
-	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-	font-size: 150px;
-	margin-top: 50px’;
-}
-
-.byElCoteaurep {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-/* --------- presentatiolns --------- */
-
-.presentations{
-	display: flex;
-	align-items: center;
-	flex: 0.5;
-	margin-top: 20px;
-	border-top: solid 1px rgb(199, 149, 102);
-	color: rgb(40, 24, 10);
-	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.imagePresentationGalerie {
-	background-image: url("images/images-used/galeriePresentation.jpeg");
-	background-size: cover;
-	height: 400px;
-	width: 640px;
-	transition: 150ms transform linear;
-}
-
-.textePresentationGalerie {
-	display: flex;
-	align-items: center;
-	text-align: center;
-	padding: 100px;
-	width: 50%;
-}
-.imagePresentationCinema {
-	background-image: url("images/images-used/cinemaPresentation.jpeg");
-	background-size: cover;
-	height: 400px;
-	width: 640px;
-	transition: 150ms transform linear;
-}
-
-.textePresentationCinema {
-	display: flex;
-	align-items: center;
-	text-align: center;
-	padding: 100px;
-	width: 50%;
-}
-.imagePresentationEvenement {
-	background-image: url("images/images-used/evenementPresentation.jpeg");
-	background-size: cover;
-	height: 400px;
-	width: 640px;
-	transition: 150ms transform linear;
-}
-
-.textePresentationEvenement {
-	display: flex;
-	align-items: center;
-	text-align: center;
-	padding: 100px;
-	width: 50%;
-}
-.imagePresentationGoodies {
-	background-image: url("images/images-used/tShirtLeCoteau.png");
-	background-size: cover;
-	height: 400px;
-	width: 640px;
-	transition: 150ms transform linear;
-}
-
-.textePresentationGoodies {
-	display: flex;
-	align-items: center;
-	text-align: center;
-	padding: 100px;
-	width: 50%;
-}
-
-.titleText{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	height: 100%;
-	width: 100%;
-	background-color: rgb(199, 149, 102);
-	color:  rgb(40, 24, 10);
-	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;		
-	font-size: 60px;
-	opacity: 0;
-	transition: 150ms transform linear;
-}
-
-.titleText:hover{
-	opacity: 0.7;
-}
-
-.imagePresentationGalerie:hover, 
-.imagePresentationCinema:hover,
-.imagePresentationEvenement:hover, 
-.imagePresentationGoodies:hover {
-	transform: scale(1.1);
-	cursor: pointer;
-
+.presentationEspacePlan{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: rgb(199, 149, 102);
+    background-color: rgb(40, 24, 10);
+    height: 300px;
+    padding: 40px;
 }
 
 
@@ -384,5 +272,4 @@ h6 {
 		text-align: center;
 		margin-top: 5px;
 	  }
-	
 	
