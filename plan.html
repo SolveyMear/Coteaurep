@@ -63,23 +63,36 @@
 			</div>
             <div class="transport">
 				<div class="transportEnCommun">
-					<div>Transport en commun</div>
-						<div>
-							<div>Point de chute</div>
-							<div><iframe src="https://www.google.com/maps/d/embed?mid=1Os-cQcWPBm0mrO2oyTKU9tAKpVHWOFM&ehbc=2E312F" width="640" height="480"></iframe></div>
-						</div>
-						<ul>Bus :
-							<li> Remi Ligne G</li>
-							<li> Remi Ligne F</li>
-							<li> Remi Ligne H</li>
-							<li> Remi Ligne 800</li>
-						</ul>
-						<ul>Trains :
-							<li> Remi Ligne 800</li>
-						</ul>
+					<div class="demandeDHoraireTransport">
+						<h2 class="aQuelleHeureTuVeuxPartirDeTours">Tu veux partir quand de Tours ?</h2>
+						<form class="dateHeureDepart" action="" >
+							<label for="date">Quel jour ?</label>
+							<input type="date">
+							<label for="heure">Quelle Heure ?</label>
+							<input type="time">
+						</form>
 
-
+						<ol class="reponsesTransport">
+							<li class="reponses">Ligne G à 18h25 à la gare de Tours, tu dessendras à St-Branchs centre.</li>
+							<li class="reponses">Ligne G à 18h45 à la gare de Tours, tu dessendras à St-Branchs centre.</li>
+							<li class="reponses">Ligne G à 19h05 à la gare de Tours, tu dessendras à St-Branchs centre.</li>
+						</ol>
+						<button class="plusDeTrajets">Plus de trajets.</button>
+					</div>
+					<div>
+						<div>PLan du Coin.</div>
+						<div><iframe src="https://www.google.com/maps/d/embed?mid=1Os-cQcWPBm0mrO2oyTKU9tAKpVHWOFM&ehbc=2E312F" width="640" height="680"></iframe></div>
+					</div>
 				</div>
+				<ul>Bus :
+					<li> Remi Ligne G</li>
+					<li> Remi Ligne F</li>
+					<li> Remi Ligne H</li>
+					<li> Remi Ligne 800</li>
+				</ul>
+				<ul>Trains :
+					<li> Remi Ligne 800</li>
+				</ul>
 			</div>
         </main>
         </body>

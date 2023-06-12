@@ -199,6 +199,35 @@ h6 {
     padding: 40px;
 }
 
+.transportEnCommun{
+	display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    height: 800px;
+    padding: 40px;
+}
+
+.aQuelleHeureTuVeuxPartirDeTours{
+	padding: 20px;
+	padding-bottom: 0px;
+}
+
+.dateHeureDepart{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+.reponsesTransport{
+	text-align: left;
+}
+.reponses{
+	padding-bottom: 10px;
+}
+
 
 
     /* --------reseauxSociaux--------- */
