@@ -221,15 +221,55 @@ h6 {
 	align-items: center;
 	padding: 50px;
 }
+
+.buttonChercher{
+	margin: 10px;
+}
+
 .reponsesTransport{
 	text-align: left;
-}
-.reponses{
+	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
 	padding-bottom: 10px;
 }
 
+.tesMeilleursOptions{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+	padding-bottom: 10px;
+}
+.reponses{
+	padding-bottom: 20px;
+}
 
+.planDuCoin{
+	text-align: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+	padding-bottom: 10px;
+}
 
+.pdfHoraires{
+	padding: 50px;
+}
+
+.listeDesLignesDeTrainsEtDeBus{
+	text-align: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.textePdfHoraire{
+	text-align: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+	padding-bottom: 30px;
+}
+
+.listePdfLignes{
+	display: flex;
+	justify-content: space-around;
+}
     /* --------reseauxSociaux--------- */
 
 
