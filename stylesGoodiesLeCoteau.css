@@ -133,7 +133,7 @@ h6 {
 .logSign:hover .seConnecter{
 	cursor: pointer;
 	transform: scale(1.15);
-	transition: all 200ms linear;
+	transition: all 150ms linear;
 }
 
 .logSign:hover .logoConnection{
@@ -183,9 +183,11 @@ h6 {
 	height: 60px;
 }
 
+
+
 /* --------main--------- */
 
-.presentationEspaceCinema{
+.presentationEspaceGoodies{
     display: flex;
     align-items: center;
     text-align: center;
@@ -197,14 +199,14 @@ h6 {
     padding: 40px;
 }
 
-.vote {
+.lesGoodies {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-.aToiDeVoter {
+.shop {
     text-align: center;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 35px;
@@ -217,17 +219,17 @@ h6 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 600px;
+    height: 450px;
     width: 100%;
 }
 
-.film {
+.produit {
     color: rgb(199, 149, 102);
     background-color: rgb(40, 24, 10);
 	position: relative;
 }
 
-.film p {
+.produit p {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -235,39 +237,30 @@ h6 {
 	opacity: 0;
 }
 
-.film.film:hover p {
+.produit.produit:hover p {
 	opacity: 0.8;
 	transition: 200ms;
 }
 
 
-.film img {
-    height: 500px;
+.produit img {
+    height: 350px;
+    width: 350px;
 }
 
-.film:hover img {
+.produit:hover img {
     opacity: 0.2;
 }
 
-.film:hover {
+.produit:hover {
 	cursor: pointer;
 	transform: scale(1.15);
 	transition: all 200ms linear;
 }
 
-.TousLesFilms {
-	display: flex;
-	justify-content: space-around;
-}
 
-.blocFIlm {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	height: 450px;
-	width: 250;
-}
-/* --------reseauxSociaux--------- */
+
+    /* --------reseauxSociaux--------- */
 
 
 	.reseauxSociaux{
@@ -338,5 +331,4 @@ h6 {
 		text-align: center;
 		margin-top: 5px;
 	  }
-	
 	
