@@ -47,12 +47,13 @@
 						</li>
 					</ul>
 					<div class="logSign">
-						<div class="seConnecter" >
-							<div class="logoConnection"><img src="images/images-used/chopBiereLogo.png" alt="logoConnection"> </div>
-							<div class="logoConnection2"><img src="images/images-used/chopBiereLogo.png" alt="logoConnection"> </div>
-						</div>
-						<div class="monCompte">Mon compte</div>
-						</div>
+                        <a href="monCompteLeCoteau.html">
+                            <div class="seConnecter" >
+                                <div class="logoConnection"><img src="images/images-used/chopBiereLogo.png" alt="logoConnection"> </div>
+                                <div class="logoConnection2"><img src="images/images-used/chopBiereLogo.png" alt="logoConnection"> </div>
+                            </div>
+						    <div class="monCompte">Mon compte</div>
+                        </a>
 					</div>
 				</div>
 			</nav>
@@ -72,7 +73,8 @@
 							<input type="time">
 							<button class="buttonChercher">chercher</button>
 						</form>
-
+						<?php
+							$fichier = fopen("tableau.csv", "r");
 						<ol class="reponsesTransport">
 							<h2 class="tesMeilleursOptions">Tes meilleurs options :</h2>
 							<li class="reponses">Ligne G à 18h25 à la gare de Tours, tu dessendras à St-Branchs centre.</li>
