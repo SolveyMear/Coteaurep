@@ -1,0 +1,16 @@
+{
+	"name": "my-php-project",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "APP_ENV=development vite",
+		"build": "vite build"
+	},
+	"devDependencies": {
+		"@vue/compiler-sfc": "^3.2.45",
+		"vite": "^4.0.0",
+		"vite-plugin-live-reload": "^3.0.1"
+	},
+	"overrides": {
+		"esbuild": "npm:esbuild-wasm@latest"
+	}
+}

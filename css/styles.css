@@ -98,7 +98,7 @@ h6 {
 .goodies,
 .planAcess {
 	display: flex;
-    align-items: center;
+	align-items: center;
 	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	text-align: center;
 	font-size: 26px;
@@ -113,79 +113,75 @@ h6 {
 .evenement:hover,
 .goodies:hover,
 .planAcess:hover {
-    height: 80%;
-    background-color: rgb(40, 24, 10);
-    color: rgb(199, 149, 102);
+	height: 80%;
+	background-color: rgb(40, 24, 10);
+	color: rgb(199, 149, 102);
 	border-radius: 5px;
 	transition: all 200ms linear;
 }
 
-.logSign{
-    display: flex;
-    flex-direction: column;
+.logSign {
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
-    align-items: center;
+	align-items: center;
 	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-	width:112px;	
-	color: rgb(40, 24, 10);;
+	width: 112px;
+	color: rgb(40, 24, 10);
 }
 
-.logSign:hover .seConnecter{
+.logSign:hover .seConnecter {
 	cursor: pointer;
 	transform: scale(1.15);
 	transition: all 150ms linear;
 }
 
-.logSign:hover .logoConnection{
+.logSign:hover .logoConnection {
 	transform: rotate(22deg);
 }
 
 .logSign .logoConnection,
-.logSign .logoConnection2{
+.logSign .logoConnection2 {
 	transition: all 200ms linear;
 }
 
-.logSign:hover .logoConnection2{
+.logSign:hover .logoConnection2 {
 	transform: rotate(-22deg);
 }
 
-.logSign:hover .logoConnection img{
+.logSign:hover .logoConnection img {
 	margin-right: 0px;
 	transition: all 200ms linear;
 }
 
-.seConnecter{
+.seConnecter {
 	display: flex;
-    justify-content: flex-end;
+	justify-content: flex-end;
 	align-items: center;
-    margin: 10px;
+	margin: 10px;
 }
 
-.logoConnection img{
+.logoConnection img {
 	height: 40px;
 	transform: scaleX(-1);
 	margin-right: 10px;
 	transition: all 200ms ease-in-out;
 }
 
-.logoConnection2 img{
+.logoConnection2 img {
 	height: 40px;
 }
 
-.monCompte{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
+.monCompte {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
 }
 
-.sInscrire img{
+.sInscrire img {
 	height: 60px;
 }
-
-
-
-
 
 /* ---------1--------- */
 
@@ -209,17 +205,17 @@ h6 {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
 /* --------- presentatiolns --------- */
 
-.presentations{
+.presentations {
 	display: flex;
 	align-items: center;
 	flex: 0.5;
 	margin-top: 20px;
 	border-top: solid 1px rgb(199, 149, 102);
 	color: rgb(40, 24, 10);
-	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+		sans-serif;
 }
 
 .imagePresentationGalerie {
@@ -283,7 +279,7 @@ h6 {
 	width: 50%;
 }
 
-.titleText{
+.titleText {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -291,98 +287,92 @@ h6 {
 	height: 100%;
 	width: 100%;
 	background-color: rgb(199, 149, 102);
-	color:  rgb(40, 24, 10);
-	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;		
+	color: rgb(40, 24, 10);
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	font-size: 60px;
 	opacity: 0;
 	transition: 150ms transform linear;
 }
 
-.titleText:hover{
+.titleText:hover {
 	opacity: 0.7;
 }
 
-.imagePresentationGalerie:hover, 
+.imagePresentationGalerie:hover,
 .imagePresentationCinema:hover,
-.imagePresentationEvenement:hover, 
+.imagePresentationEvenement:hover,
 .imagePresentationGoodies:hover {
 	transform: scale(1.1);
 	cursor: pointer;
-
 }
 
+/* --------reseauxSociaux--------- */
 
+.reseauxSociaux {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	background-color: rgb(199, 149, 102);
+	color: rgb(40, 24, 10);
+	border-top: solid 1px rgb(40, 24, 10);
+	height: 300px;
+}
 
-    /* --------reseauxSociaux--------- */
+.vousAimez {
+	font-size: 40px;
+	width: 600px;
+	text-align: center;
+}
 
+.likePartage {
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 400px;
+	margin-bottom: 40px;
+}
 
-	.reseauxSociaux{
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
-		align-items: center;
-		font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;		
-		background-color: rgb(199, 149, 102);
-		color:  rgb(40, 24, 10);
-		border-top: solid 1px rgb(40, 24, 10);
-		height: 300px;
-	  }
-	
-	  .vousAimez{
-		font-size: 40px;
-		width: 600px;
-		text-align: center;
-	  }
-	
-	  .likePartage{
-		display: flex;
-		justify-content: space-around;
-		align-content: space-around;
-		font-family: Arial, Helvetica, sans-serif;
-		width: 400px;
-		margin-bottom: 40px;
-	  }
-	
-	  .reseaux{
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
-		align-content: space-around;
-	  }
+.reseaux {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: space-around;
+}
 
-	  .whatApp{
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
-		align-content: space-around;
-	  }
-	
-	  .reseaux img{
-		height: 80px;
-		width: 80px;
-		transition: 150ms transform linear;
-	  }
+.whatApp {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: space-around;
+}
 
-	  .whatApp img{
-		height: 80px;
-		width: 80px;
-		transition: 150ms transform linear;
-	  }
-	
-	  .reseaux:hover img{
-		transform: scale(1.1);
-		cursor: pointer;
-	  }
+.reseaux img {
+	height: 80px;
+	width: 80px;
+	transition: 150ms transform linear;
+}
 
-	  .whatApp:hover img{
-		transform: scale(1.1);
-		cursor: pointer;
-	  }
-	
-	  .partage{
-		font-size: 14px;
-		text-align: center;
-		margin-top: 5px;
-	  }
-	
-	
+.whatApp img {
+	height: 80px;
+	width: 80px;
+	transition: 150ms transform linear;
+}
+
+.reseaux:hover img {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.whatApp:hover img {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.partage {
+	font-size: 14px;
+	text-align: center;
+	margin-top: 5px;
+}

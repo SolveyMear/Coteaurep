@@ -1,9 +1,12 @@
+<?php 
+require_once __DIR__ . '/../vitephp/helpers.php';
+?>
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>Coteaurep</title>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="stylesPlanLeCoteau.css" />
+		<!-- <link rel="stylesheet" href="stylesPlanLeCoteau.css" /> -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -13,6 +16,9 @@
 	</head>
 
 	<body>
+	<?php
+							echo 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
+							?>
 		<!-- header -->
 		<header>
 			<nav>
@@ -22,13 +28,13 @@
 				<div class="barOnglets">
 					<div class="logoCoteaurep">
 						<img
-							src="images/logos/logo_coteaurep-removebg-preview.png"
+							src="../images/logos/logo_coteaurep-removebg-preview.png"
 							alt="Logo coteaurep"
 							style="height: 100%" />
 					</div>
 					<ul class="onglets">
 						<li class="accueil">
-							<a href="index.html"> Accueil</a>
+							<a href="../index.html"> Accueil</a>
 						</li>
 						<li class="galerie">
 							<a href="galerie.html"> Galerie</a>
@@ -49,8 +55,8 @@
 					<div class="logSign">
                         <a href="monCompteLeCoteau.html">
                             <div class="seConnecter" >
-                                <div class="logoConnection"><img src="images/images-used/chopBiereLogo.png" alt="logoConnection"> </div>
-                                <div class="logoConnection2"><img src="images/images-used/chopBiereLogo.png" alt="logoConnection"> </div>
+                                <div class="logoConnection"><img src="../images/images-used/chopBiereLogo.png" alt="logoConnection"> </div>
+                                <div class="logoConnection2"><img src="../images/images-used/chopBiereLogo.png" alt="logoConnection"> </div>
                             </div>
 						    <div class="monCompte">Mon compte</div>
                         </a>
@@ -73,8 +79,10 @@
 							<input type="time">
 							<button class="buttonChercher">chercher</button>
 						</form>
+						
 						<?php
 							$fichier = fopen("tableau.csv", "r");
+							?>
 						<ol class="reponsesTransport">
 							<h2 class="tesMeilleursOptions">Tes meilleurs options :</h2>
 							<li class="reponses">Ligne G à 18h25 à la gare de Tours, tu dessendras à St-Branchs centre.</li>
@@ -113,20 +121,23 @@
 				<h2 class="vousAimez">Suit Le Coteau.</h2>
 				<div class="likePartage">
 					<div class="reseaux">
-						<img src="images/images-used/facebookLogo.png" alt="reseaux logo" ;">
+						<img src="../images/images-used/facebookLogo.png" alt="reseaux logo" ;>
 					</div>
 					<div class="reseaux">
-						<img src="images/images-used/twitterLogo.png" alt="reseaux logo" ;">
+						<img src="../images/images-used/twitterLogo.png" alt="reseaux logo" ;>
 					</div>
 					<div class="reseaux">
-						<img src="images/images-used/instagramLogo.png" alt="reseaux logo" ;">
+						<img src="../images/images-used/instagramLogo.png" alt="reseaux logo" ;>
 					</div>
 					<div class="reseaux">
-						<img src="images/images-used/whatappLogo.png" alt="reseaux logo" ;">
+						<img src="../images/images-used/whatappLogo.png" alt="reseaux logo" ;>
 					</div>
 				</div>
 			</div>
 		</footer>
+		<?= vite('js/main.js') ?>
+		<!-- <script type="module" src="../public/js/main.js"></script> -->
+
         </body>
 </html>
         

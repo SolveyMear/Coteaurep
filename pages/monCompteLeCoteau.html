@@ -3,7 +3,7 @@
 	<head>
 		<title>Coteaurep</title>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="stylesMonCompteLeCoteau.css" />
+		<!-- <link rel="stylesheet" href="stylesMonCompteLeCoteau.css" /> -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -22,13 +22,13 @@
 				<div class="barOnglets">
 					<div class="logoCoteaurep">
 						<img
-							src="images/logos/logo_coteaurep-removebg-preview.png"
+							src="../images/logos/logo_coteaurep-removebg-preview.png"
 							alt="Logo coteaurep"
 							style="height: 100%" />
 					</div>
 					<ul class="onglets">
 						<li class="accueil">
-							<a href="index.html"> Accueil</a>
+							<a href="../index.html"> Accueil</a>
 						</li>
 						<li class="galerie">
 							<a href="galerie.html"> Galerie</a>
@@ -36,9 +36,7 @@
 						<li class="cinema">
 							<a href="cinemaCoteau.html"> Cinéma</a>
 						</li>
-						<li class="evenement">
-							Évènement
-						</li>
+						<li class="evenement">Évènement</li>
 						<li class="goodies">
 							<a href="goodiesCoteau.html"> Goodies</a>
 						</li>
@@ -47,73 +45,99 @@
 						</li>
 					</ul>
 					<div class="logSign">
-                        <a href="monCompteLeCoteau.html">
-                            <div class="seConnecter" >
-                                <div class="logoConnection"><img src="images/images-used/chopBiereLogo.png" alt="logoConnection"> </div>
-                                <div class="logoConnection2"><img src="images/images-used/chopBiereLogo.png" alt="logoConnection"> </div>
-                            </div>
-						    <div class="monCompte">Mon compte</div>
-                        </a>
+						<a href="monCompteLeCoteau.html">
+							<div class="seConnecter">
+								<div class="logoConnection">
+									<img
+										src="../images/images-used/chopBiereLogo.png"
+										alt="logoConnection" />
+								</div>
+								<div class="logoConnection2">
+									<img
+										src="../images/images-used/chopBiereLogo.png"
+										alt="logoConnection" />
+								</div>
+							</div>
+							<div class="monCompte">Mon compte</div>
+						</a>
 					</div>
 				</div>
 			</nav>
 		</header>
-        <main>
-            <div class="espaceMonCompte">
+		<main>
+			<div class="espaceMonCompte">
+				<div class="seConnecterCreerUnCompte">
+					<div class="connexion">
+						<h2 class="dejaUnCompte">T'as déjà un compte</h2>
+						<form class="identifiantMdp" action="">
+							<div class="formulaire">
+								<label for="identifiant">Ton numéro</label>
+								<input type="numbers" />
+							</div>
+							<div class="formulaire">
+								<label for="motDePasse">Ton mot de passe</label>
+								<input type="password" />
+							</div>
+							<div class="checkBox">
+								<div class="formulaire">
+									<label for="seSouvenirDeMoi">
+										<input
+											type="checkbox"
+											id="seSouvenirDeMoi"
+											name="_seSouvenirDeMoi"
+											value="on"
+											checked />
+										Se souvenir de moi
+									</label>
+								</div>
+							</div>
+							<div class="buttonsMdpConexion">
+								<a class="mdpOublie" href="">Mot de passe oublié ?</a>
+								<button class="boutonConnexion">Connexion</button>
+							</div>
+						</form>
+					</div>
 
-                <div class="seConnecterCreerUnCompte">
-                    <div class="connexion">
-                        <h2 class="dejaUnCompte">T'as déjà un compte</h2>
-                        <form class="identifiantMdp" action="">
-                            <div class="formulaire">
-                                <label for="identifiant">Ton numéro</label>
-                                <input type="numbers">
-                            </div>
-                            <div class="formulaire">
-                                <label for="motDePasse">Ton mot de passe</label>
-                                <input type="password">
-                            </div>
-                            <div class="checkBox">
-                                <div class="formulaire">
-                                    <label for="seSouvenirDeMoi">
-                                        <input type="checkbox" id="seSouvenirDeMoi" name="_seSouvenirDeMoi" value="on" checked>
-                                        Se souvenir de moi
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="buttonsMdpConexion">
-                                <a class="mdpOublie" href="">Mot de passe oublié ?</a>
-                                <button class="boutonConnexion">Connexion</button>
-                            </div>
-                        </form>
-                    </div>
-
-                    <div class="inscription">
-                        <h2 class="nouveuAuCoteau">T'es nouveau au Coteau ?</h2>
-						<a href="inscriptionLeCoteau.html">                        <button class="sInscrire">Rejoindre le Coteau</button></a>
-                    </div>
-
-                </div>
-            </div>
-        </main>
+					<div class="inscription">
+						<h2 class="nouveuAuCoteau">T'es nouveau au Coteau ?</h2>
+						<a href="inscriptionLeCoteau.html">
+							<button class="sInscrire">Rejoindre le Coteau</button></a
+						>
+					</div>
+				</div>
+			</div>
+		</main>
 		<footer>
 			<div class="reseauxSociaux">
 				<h2 class="vousAimez">Suit Le Coteau.</h2>
 				<div class="likePartage">
 					<div class="reseaux">
-						<img src="images/images-used/facebookLogo.png" alt="reseaux logo" ;">
+						<img
+							src="../images/images-used/facebookLogo.png"
+							alt="reseaux logo"
+							; />
 					</div>
 					<div class="reseaux">
-						<img src="images/images-used/twitterLogo.png" alt="reseaux logo" ;">
+						<img
+							src="../images/images-used/twitterLogo.png"
+							alt="reseaux logo"
+							; />
 					</div>
 					<div class="reseaux">
-						<img src="images/images-used/instagramLogo.png" alt="reseaux logo" ;">
+						<img
+							src="../images/images-used/instagramLogo.png"
+							alt="reseaux logo"
+							; />
 					</div>
 					<div class="reseaux">
-						<img src="images/images-used/whatappLogo.png" alt="reseaux logo" ;">
+						<img
+							src="../images/images-used/whatappLogo.png"
+							alt="reseaux logo"
+							; />
 					</div>
 				</div>
 			</div>
 		</footer>
-        </body>
+		<script type="module" src="../js/main.js"></script>
+	</body>
 </html>
