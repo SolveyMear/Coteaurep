@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../vitephp/helpers.php';
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 	<head>
 		<title>Coteaurep</title>
 		<meta charset="utf-8" />
@@ -49,7 +49,7 @@ require_once __DIR__ . '/../vitephp/helpers.php';
 							<a href="goodiesCoteau.html"> Goodies</a>
 						</li>
 						<li class="planAcess">
-							<a href="plan.html"> Plan</a>
+							<a href="plan.php"> Plan</a>
 						</li>
 					</ul>
 					<div class="logSign">
